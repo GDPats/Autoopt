@@ -1,0 +1,12 @@
+README.md
+setup.py
+autoopt/__init__.py
+autoopt/__main__.py
+autoopt/model_configs.py
+autoopt/optimizer.py
+autoopt/pruning.py
+autoopt.egg-info/PKG-INFO
+autoopt.egg-info/SOURCES.txt
+autoopt.egg-info/dependency_links.txt
+autoopt.egg-info/requires.txt
+autoopt.egg-info/top_level.txt

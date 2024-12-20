@@ -3,15 +3,15 @@ from setuptools import setup, find_packages
 setup(
     name="autoopt",  # Name of your package
     version="0.0.1",  # Initial version
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Alexandros S. Kalafatelis, Gerasimos Patsourakis, Vasilis Nikolakakis",
+    author_email="alkalafatelis@fourdotinfinity.com", " gpatsourakis@fourdotinfinity.com", "vnik@fourdotinfinity.com",
     description="A library for automated model tuning and data preprocessing.",
-    long_description=open("README.md").read(),  # You can create a README.md file to add detailed info
-    long_description_content_type="text/markdown",  # Markdown for the README
-    url="https://github.com/yourusername/autoopt",  # Replace with your GitHub repo if available
-    packages=find_packages(),  # Automatically finds sub-packages
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown", 
+    url="https://github.com/GDPats/Autoopt",
+    packages=find_packages(), 
     install_requires=[
-        "scikit-learn>=0.24.0",  # Dependency for the functions we’ll be using
+        "scikit-learn>=0.24.0", 
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
