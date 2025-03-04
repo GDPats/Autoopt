@@ -25,6 +25,7 @@ MODEL_PARAM_GRID = {
             "penalty": ["l2"],
             "C": [0.1, 1, 10],
             "solver": ["liblinear", "lbfgs"],
+            "max_iter": [200, 500, 1000]  
         }
     }
 }

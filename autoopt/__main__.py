@@ -1,6 +1,6 @@
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
-from autoopt.optimizer import run_grid_search, run_randomized_search
+from autoopt.OFR.optimizer import run_grid_search, run_randomized_search
 from autoopt.pruning import run_pruning_algorithms, recursive_feature_elimination
 from autoopt.preprocessing import standardize_data, normalize_data, encode_data
 
