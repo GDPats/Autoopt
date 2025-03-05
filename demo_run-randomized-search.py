@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from autoopt.optimizer import run_randomized_search
-from autoopt.model_configs import MODEL_PARAM_GRID  # Load dynamically
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
@@ -26,7 +25,7 @@ print("\n=== Logistic Regression Performance (Before RandomizedSearchCV) ===")
 print(f"Test Accuracy: {accuracy:.4f}")
 
 print("\n=== Running RandomizedSearchCV for Logistic Regression ===")
-random_logreg = run_randomized_search("logistic_regression", X_train, y_train, n_iter=20)
+random_logreg = run_randomized_search("logistic_regression", X_train, y_train, n_iter=18)
 random_logreg_dict = json.loads(random_logreg)
 
 # Convert best model string to actual model instance
